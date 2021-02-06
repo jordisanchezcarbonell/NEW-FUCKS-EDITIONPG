@@ -12,8 +12,6 @@ const connectDB = () => {
         useUnifiedTopology: true
     }, err => {
         if(err) throw err;
-        console.log(err)
-
         console.log('Connected to mongodb.')
     })
 }
